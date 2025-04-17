@@ -64,9 +64,6 @@ const HeroHome = ({ id, title, subHeading, detail, linkText, className, imageUrl
             <Link to="/urgent-remortgage" className="secondry-btn">
               Urgent Remortgage❗ <FaCaretRight />
             </Link>
-            <Link to="/urgent-remortgage" className="secondry-btn">
-              Urgent Remortgage❗ <FaCaretRight />
-            </Link>
             <Link to="/foreign-nationals" className="secondry-btn">
               Foreign Nationals Buying in the UK <FaCaretRight />
             </Link>
