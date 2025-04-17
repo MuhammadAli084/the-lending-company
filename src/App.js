@@ -86,7 +86,7 @@ const AppContent = () => {
     const timeout = setTimeout(() => {
       setRouteLoading(false);
       AOS.refresh();
-    }, 1200); // simulate transition
+    }, 300); // simulate transition
 
     return () => clearTimeout(timeout);
   }, [location]);
