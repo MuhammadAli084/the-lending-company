@@ -11,7 +11,7 @@
   .loader-spinner {
     width: 64px;
     height: 64px;
-    border: 8px solid #38a169; /* green */
+    border: 8px solid #005ec4; 
     border-top: 8px solid transparent;
     border-radius: 50%;
     animation: spin 1s linear infinite;
