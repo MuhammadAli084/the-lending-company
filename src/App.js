@@ -17,6 +17,8 @@ import UrgentRemortgage from "./pages/UrgentRemortgage";
 import FirstTimeBuyers from "./pages/FirstTimeBuyers";
 import FAQs from "./pages/FAQs";
 import BlogPage from './pages/blog';
+import MortgageProtection from './pages/MortgageProtection'
+import ForeignNationals from './pages/ForeignNationals'
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -95,6 +97,8 @@ function App() {
           <Route path="/first-time-buyers" element={<FirstTimeBuyers />} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/mortage-protection" element={<MortgageProtection />} />
+          <Route path="/foreign-nationals" element={<ForeignNationals />} />
         </Routes>
         <Footer />
       </div>

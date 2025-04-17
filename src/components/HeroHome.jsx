@@ -12,11 +12,11 @@ const HeroHome = ({ id, title, subHeading, detail, linkText, className, imageUrl
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(entry.target); 
+          observer.unobserve(entry.target);
         }
       },
       {
-        rootMargin: "200px", 
+        rootMargin: "200px",
       }
     );
 
@@ -59,10 +59,19 @@ const HeroHome = ({ id, title, subHeading, detail, linkText, className, imageUrl
               Get Commercial Quotes Now <FaCaretRight />
             </Link>
             <Link to="/first-time-buyers" className="secondry-btn">
-            First Time Buyers  <FaCaretRight />
+              First Time Buyers  <FaCaretRight />
             </Link>
             <Link to="/urgent-remortgage" className="secondry-btn">
-            Urgent Remortgage❗ <FaCaretRight />
+              Urgent Remortgage❗ <FaCaretRight />
+            </Link>
+            <Link to="/urgent-remortgage" className="secondry-btn">
+              Urgent Remortgage❗ <FaCaretRight />
+            </Link>
+            <Link to="/foreign-nationals" className="secondry-btn">
+              Foreign Nationals Buying in the UK <FaCaretRight />
+            </Link>
+            <Link to="/mortage-protection" className="secondry-btn">
+              Mortage Protection <FaCaretRight />
             </Link>
           </div>
         </div>
